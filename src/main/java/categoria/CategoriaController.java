@@ -32,8 +32,8 @@ public class CategoriaController {
 
     @Transactional
     @PostMapping
-    public ResponseEntity cria(@RequestBody @Valid CategoriaRequest categoriaDTO){
-        Categoria categoria = categoriaDTO.converter();
+    public ResponseEntity cria(@RequestBody @Valid CategoriaRequest categoriaRequest){
+        Categoria categoria = categoriaRequest.converter();
         categoriaRepository.save(categoria);
         return ResponseEntity.ok().build();
     }
