@@ -27,4 +27,8 @@ public class Estado {
     @Deprecated
     public Estado() {
     }
+
+	public Long getId() {
+		return null;
+	}
 }

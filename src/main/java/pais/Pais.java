@@ -40,4 +40,11 @@ public class Pais {
 	        result = 31 * result + nome.hashCode();
 	        return result;
 	    }
+	    
+	    public String toString() {
+	        return "Pais{" +
+	                "id=" + id +
+	                ", nome='" + nome + '\'' +
+	                '}';
+}
 }
