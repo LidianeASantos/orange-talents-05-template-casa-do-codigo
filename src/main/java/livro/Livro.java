@@ -117,5 +117,10 @@ public class Livro {
 	    
 	    public Long getId() { return id; }
 
+		public Livro getLivro() {
+			return null;
+		}
+
+	
 	    	    }
 
