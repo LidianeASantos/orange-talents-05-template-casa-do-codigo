@@ -114,4 +114,8 @@ public class Livro {
 	    public Categoria getCategoria() {
 	        return categoria;
 	    }
-}
+	    
+	    public Long getId() { return id; }
+
+	    	    }
+
